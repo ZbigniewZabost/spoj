@@ -1,0 +1,8 @@
+vscode:
+  extensions:
+    - vscjava
+
+tasks:
+  - before: sh ./scripts/download-jars.sh
+    init: sh ./scripts/compile.sh
+    command: sh ./scripts/run-tests.sh
