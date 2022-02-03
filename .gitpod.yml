@@ -1,6 +1,8 @@
 vscode:
   extensions:
-    - vscjava
+    - vscjava.vscode-java-pack
+    - eamodio.gitlens
+    - esbenp.prettier-vscode
 
 tasks:
   - before: sh ./scripts/download-jars.sh
